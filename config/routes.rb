@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :posts
   root "pages#home"
-  get "about" => "pages#about"
+  get "about" => "pages#about" #creates about_path
 end
 
   # The priority is based upon order of creation: first created -> highest priority.
